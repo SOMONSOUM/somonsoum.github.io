@@ -76,8 +76,8 @@ const PI_2 = Math.PI * 2;
 const PI_HALF = Math.PI * 0.5;
 
 // Stage.disableHighDPI = true;
-const trailsStage = new createjs.Stage('trails-canvas');
-const mainStage = new createjs.Stage('main-canvas');
+const trailsStage = new Stage('trails-canvas');
+const mainStage = new Stage('main-canvas');
 const stages = [
 	trailsStage,
 	mainStage
